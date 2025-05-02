@@ -21,7 +21,6 @@ Automates Azure VM OS/Data disk snapshots across **multiple Azure subscriptions*
 azure-vm-snapshot-tool/
 │
 ├── Take-VMSnapshot.ps1 # Main snapshot script
-├── vmnames.sample.txt # Sample input list of VMs
 ├── .gitignore # Optional: to exclude logs/reports
 └── README.md # This documentation
 ```
@@ -63,7 +62,7 @@ Open PowerShell and run the following:
 ```
 Parameters:
 * VmListPath: Path to your VM list file
-* TicketId: Reference like a PRODOPS or JIRA ticket — used in snapshot names
+* TicketId: Reference like a JIRA or ServiceNow ticket — used in snapshot names
 ---
 📊 Output Files
 
@@ -88,13 +87,13 @@ Ticket reference
 
 ```
 ┌──────────────────────────────┐
-│         Summary Report        │
+│         Summary Report       │
 ├────────────────┬─────────────┤
-│ Successful     │           12 │
+│ Successful     │           12│
 ├────────────────┼─────────────┤
-│ Failed         │            2 │
+│ Failed         │            2│
 ├────────────────┼─────────────┤
-│ Not Found      │            1 │
+│ Not Found      │            1│
 └────────────────┴─────────────┘
 ```
 ---
