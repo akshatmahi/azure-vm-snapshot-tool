@@ -13,7 +13,6 @@ Automates Azure VM OS/Data disk snapshots across **multiple Azure subscriptions*
 - ✂️ Smart name truncation to comply with Azure length limits
 - 📦 Modular, clean PowerShell codebase
 - 🔐 Includes safety checks and logging
-
 ---
 
 ## 📂 Repository Contents
